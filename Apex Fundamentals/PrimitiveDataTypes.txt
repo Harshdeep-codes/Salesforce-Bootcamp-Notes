@@ -1,0 +1,26 @@
+Boolean amIAwake = true;
+System.debug(amIAwake);
+
+String greeting = 'Namaste';
+System.debug(greeting);
+
+Integer num = 23;
+System.debug(num);
+
+Long worldPopulation = 7000000000000000L;
+System.debug(worldPopulation);
+
+Decimal myCGPA = 8.54;
+System.debug(myCGPA);
+
+Double lightSpeed = 93000000/186000;
+System.debug(lightSpeed);
+
+Date tDay = Date.newInstance(2020, 5, 18);
+System.debug(tDay);
+
+Time currentTime= Time.newInstance(3, 25, 0, 0);
+System.debug(currentTime);
+
+DateTime currentDateTime = DateTIme.newInstance(2020, 5, 18, 3, 25, 0);
+System.debug(currentDateTime);
