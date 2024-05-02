@@ -1,0 +1,27 @@
+//String Methods
+String str = 'I am a string';
+System.debug('Actual String:' + str);
+
+//Capitalize
+System.debug('Capitalized String' + str.capitalize());
+
+//Contains
+System.debug('contains?' + str.contains('ring'));
+
+//Upper Lower Case
+System.debug('uppercase' + str.toUpperCase());
+System.debug('lowercase' + str.toLowerCase());
+
+//Equals
+System.debug('Is it equal?' +str.equals('I am a string'));
+
+String str1 = 'manish';
+String str2 = 'Manish';
+System.debug('Is str1 = str2:'+ str1.toLowerCase().equals(str2.toLowerCase()));
+
+//Remove
+System.debug(str.remove('string'));
+//Replace
+System.debug(str.replace('string','strong'));
+//Split
+System.debug(str.split(' '));
