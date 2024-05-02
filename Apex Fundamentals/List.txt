@@ -5,3 +5,23 @@ rollNumbers.add(48);
 rollNumbers.add(49);
 rollNumbers.add(50);
 System.debug(rollNumbers);
+
+System.debug(rollNumbers.get(3));
+Integer IndexValue = rollNumbers.get(2);
+System.debug(IndexValue);
+
+rollNumbers.add(3,4);
+System.debug(rollNumbers);
+
+System.debug(rollNumbers.size());
+
+rollNumbers.remove(3);
+System.debug(rollNumbers);
+System.debug(rollNumbers.size());
+
+//rollNumbers.clear();
+//System.debug(rollNumbers);
+
+rollNumbers.set(1,69);
+System.debug(rollNumbers);
+
