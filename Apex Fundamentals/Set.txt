@@ -1,0 +1,15 @@
+Set <Integer> rollNumbers = new Set<Integer> {1,2,3,4,5};
+    System.debug(rollNumbers);
+
+rollNumbers.add(2);
+  System.debug(rollNumbers);
+
+System.debug(rollNumbers.contains(2));
+
+rollNumbers.remove(5);
+ System.debug(rollNumbers);
+System.debug (rollNumbers.size());
+
+System.debug(rollNumbers.isempty());
+rollNumbers.clear();
+System.debug(rollNumbers.isempty());
