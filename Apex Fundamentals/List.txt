@@ -1,0 +1,7 @@
+List <Integer>rollNumbers = new List<Integer>{45,46,47};
+System.debug(rollNumbers);
+
+rollNumbers.add(48);
+rollNumbers.add(49);
+rollNumbers.add(50);
+System.debug(rollNumbers);
