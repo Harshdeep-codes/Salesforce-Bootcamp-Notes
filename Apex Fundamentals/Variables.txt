@@ -1,0 +1,5 @@
+Integer num = 23;
+System.debug(num);
+
+String name = 'Harsh';
+System.debug(name);
