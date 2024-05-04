@@ -1,0 +1,9 @@
+//final Decimal PI = 3.14159;
+final Decimal PI;
+System.debug(PI);
+
+
+PI = 3.1459;
+System.debug(PI);
+PI = 4;
+System.debug(PI);
