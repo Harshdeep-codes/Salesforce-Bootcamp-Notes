@@ -1,0 +1,2 @@
+String str = 'My team\'s name';
+System.debug(str);
