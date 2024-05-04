@@ -1,0 +1,6 @@
+Map <String,List<String>> SFDCfacts = new Map <String,List<String>> {};
+List<String> Apex = new List <String> {'Blog 1','Blog2','Blog 3'};
+List<String> Lightening = new List <String> {'Blog 4','Blog 5','Blog 6'};
+SFDCfacts.put('Apex',Apex);
+SFDCfacts.put('Lightening',Lightening);
+System.debug(SFDCfacts);
