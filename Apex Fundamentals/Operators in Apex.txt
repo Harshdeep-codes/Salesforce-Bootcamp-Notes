@@ -1,0 +1,84 @@
+Integer x = 5;
+System.debug(x);
+
+//Addition Operator
+x = x+5;
+System.debug(x);
+
+//Subtraction Operator
+x= x-5;
+System.debug(x);
+
+//Multiplication Operator
+x= x*5;
+System.debug(x);
+
+//Division Operator
+x= x/5;
+System.debug(x);
+
+//Increment Operator
+x++;
+System.debug(x);
+
+//Decrement Operator
+x--;
+System.debug(x);
+
+//Addition,subtraction,multiplication,division assigment
+x += 5;
+System.debug(x);
+x -= 5;
+System.debug(x);
+x *= 5;
+System.debug(x);
+x /= 5;
+System.debug(x);
+
+//Addition Operator with Strings
+String hello = 'Hello';
+String world = 'World';
+System.debug(hello + world);
+
+System.debug(hello + ' ' +world);
+
+//AND Operator
+Boolean first = true;
+Boolean second = true;
+Boolean result;
+//AND- if both are true than result will be true
+result = first && second;
+System.debug(result);
+
+//OR- if one is true result will be true
+result = first || second;
+System.debug(result);
+
+//Equality Operator
+result = (first == second);
+
+//less than
+result=  (5<6);
+
+//more than
+result= (6>5);
+
+//less than & equals to
+result= (5<=6);
+
+//greater than eqauls to
+result= (6>=5);
+
+//NOT Operator
+result= (first != first);
+
+//Ternary Operator
+String greeting = ' ';
+Integer hour = 13;
+//greeting = (hour < 12) ? 'Good Morning': 'Good Afternoon';
+//System.debug(greeting);
+
+System.debug((hour < 12) ? 'Good Morning': 'Good Afternoon');
+
+
+
