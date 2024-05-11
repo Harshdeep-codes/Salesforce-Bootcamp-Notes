@@ -1,0 +1,8 @@
+String mathsMarks= '50';
+String englishMarks= '50';
+String scienceMarks= '50';
+
+String total = String.valueOf(Integer.valueOf(mathsMarks)+
+              Integer.valueOf(englishMarks)+
+              Integer.valueOf(scienceMarks));
+System.debug('Total' +total);
