@@ -1,0 +1,12 @@
+final Integer only_one_slice = 8;
+final Integer upto_three_slice = 7;
+final Integer morethan_four_slice = 6;
+
+Integer rossOrder=3;
+Integer chandelerOrder=1;
+Integer joeyOrder=4;
+Integer numberOfSlices = joeyOrder;
+Integer rossToPay= numberOfSlices == 1 ? only_one_slice*numberOfSlices:
+    ( numberOfSlices <=3 ? upto_three_slice*7 : morethan_four_slice*numberOfSlices);
+System.debug('Ross has to pay-' +rossToPay);
+
