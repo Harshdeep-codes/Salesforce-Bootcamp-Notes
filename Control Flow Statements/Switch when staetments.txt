@@ -1,0 +1,36 @@
+//Standard Form
+String toDay = 'Sunday';
+switch on toDay {
+    when 'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday{
+        System.debug('Office');
+    }   
+    when 'Tuesday'{
+     System.debug('Office');
+    }
+    when 'Wednesday'{
+        System.debug('Office');
+    }
+    when 'Thursday'{
+        System.debug('Office');
+    }
+    when 'Friday' {
+        System.debug('Office');
+    }
+  when 'Satyrday' {
+        System.debug('Party!!');
+    }
+    when 'Sunday' {
+        System.debug('Movie!!');
+    }
+}
+
+//Multiple condition
+String toDay = 'Sunday';
+switch on toDay {
+    when 'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'{
+        System.debug('Office');
+    }   
+    when else {
+        System.debug('Movie');
+    }
+}
