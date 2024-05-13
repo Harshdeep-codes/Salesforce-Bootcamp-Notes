@@ -1,0 +1,15 @@
+/* List<Integer> rollNumbers = new List<Integer> {1,2,3,4,5};
+    for(Integer i: rollNumbers){
+        System.debug('Current- ' + i);
+    }
+
+*/
+
+List<String> days = new List<String>{'Monday', 'Tuesday','Wednesday', 'Thursday','Friday','Saturday','Sunday'};
+    
+    for(String day: days ){
+        if(day == 'Tuesday'){
+            continue;
+        }
+        System.debug('It is ' + day + ' -Eat Chicken');
+    }
