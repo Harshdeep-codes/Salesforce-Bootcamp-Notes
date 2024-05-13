@@ -1,0 +1,21 @@
+// dicvisible by 3 fizz
+//divisible by 5 buzz
+//divisible by 3 & 5 fizzbuzz
+Integer N = 0;
+do{
+    if(Math.mod(N,5)==0 && Math.mod(N,5)==0){
+        System.debug('fizzbuzz');
+    }
+    if(Math.mod(N,3)==0){
+        System.debug('fizz');
+    }
+    else if(Math.mod(N,5)==0){
+        System.debug('buzz');
+    }
+  
+    else{
+        System.debug(N);
+    }
+N++;
+}
+while(N<=100);
