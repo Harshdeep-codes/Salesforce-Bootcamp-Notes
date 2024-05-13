@@ -1,0 +1,21 @@
+//First 20 Fibonacci numbers
+Integer i,n;
+
+//Value of n
+n=20;
+i=0;
+
+Integer firstNumber= 0;
+Integer secondNumber = 1;
+Integer newNumber= firstNumber + secondNumber;
+
+System.debug(firstNumber);
+System.debug(secondNumber);
+
+while(i<=n){
+    System.debug(newNumber);
+    firstNumber = secondNumber;
+    secondNumber = newNumber;
+    newNumber = firstNumber+secondNumber;
+    i++;
+}
