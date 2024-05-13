@@ -1,0 +1,10 @@
+Integer gooseBumps = 4;
+
+Integer n = 100;
+
+for(Integer i = 0; i <= n ; i++){
+    if(i == gooseBumps){
+        break;
+    }
+    System.debug('Listening to Song ' + i + ' times');
+}
