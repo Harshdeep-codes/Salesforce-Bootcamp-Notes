@@ -1,1 +1,17 @@
 
+boolean isItSunny = false;
+boolean isItRaining = false;
+boolean areYouWorking = true;
+
+if(isItRaining == true){
+System.debug('Bring Your☂️');
+}
+else if(isItSunny == true){
+    System.debug('Bring Your😎');
+}
+else if (areYouWorking == true){
+    System.debug('Do Not Go to the Party');
+}
+else{
+  System.debug('woooo Go to the party🎉');
+     }
