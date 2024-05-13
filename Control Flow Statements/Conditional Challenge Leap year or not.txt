@@ -1,0 +1,21 @@
+//given year is leap year or not
+//following conditions
+//it should be divisible by 4,100,400
+Integer N=2200;
+
+if (Math.mod(N,4) == 0){
+    if(Math.mod(N,100)==0){
+        if(Math.mod(N,400)==0){
+            System.debug('Leap year');
+        }
+        else{
+            System.debug('Not a Leap Year');
+        }
+    }
+    else{
+        System.debug('Not a Leap Year');
+    }
+}
+else{
+    System.debug('Not a Leap Year');
+}
