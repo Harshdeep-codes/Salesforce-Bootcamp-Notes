@@ -1,0 +1,33 @@
+public class HelloWorld {
+    private String greeting = 'Hello World';
+    private String goodMorning = 'Good Morning'; 
+    private String goodEvening = 'Good Evening'; 
+    private String goodNight = 'Good Night'; 
+     public void printGreeting(){
+      System.debug(greeting);
+    }
+    
+    public void printGoodMorning(){
+   System.debug(goodMorning);     
+    }
+    public void printGoodEvening(){
+   System.debug(goodEvening);     
+    }
+    public void printGoodNight(){
+   System.debug(goodNight);     
+    }
+        
+}
+
+
+//Calling
+HelloWorld firstClass = new HelloWorld();
+
+firstClass.printGreeting();
+
+//Get an error
+//System.debug(firstClass.greeting);
+firstClass.printGoodMorning();
+firstClass.printGoodEvening();
+firstClass.printGoodNight();
+
