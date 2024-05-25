@@ -1,0 +1,25 @@
+//Class Structure & Methods
+public class Fitness {
+
+public static Decimal calculateBMI(Decimal weight, Decimal height){
+Decimal result = weight / (height*height);
+return result;
+}
+
+public static Decimal calculatePace(Decimal distance, Decimal minutes){
+Decimal hr = minutes/60;
+Decimal pace = distance/hr;
+return pace;
+}
+}
+
+//Calling
+System.debug('BMI For height and weight is= '+Fitness.calculateBMI(65,1.2));
+System.debug('BMI For height and weight is= '+Fitness.calculateBMI(75,1.3));
+System.debug('BMI For height and weight is= '+Fitness.calculateBMI(87,1.4));
+System.debug('BMI For height and weight is= '+Fitness.calculateBMI(92,1.5));
+
+System.debug('Your Pace in km/hr' + Fitness.calculatePace(12.5,80));
+System.debug('Your Pace in km/hr' + Fitness.calculatePace(14.2,72.3));
+System.debug('Your Pace in km/hr' + Fitness.calculatePace(12.,60.5));
+System.debug('Your Pace in km/hr' + Fitness.calculatePace(10.1,70.1));
