@@ -1,0 +1,109 @@
+//Class
+public class HelloWorld {
+    private String greeting = 'Hello World';
+    //private String goodMorning = 'Good Morning'; 
+    //private String goodEvening = 'Good Evening'; 
+    //private String goodNight = 'Good Night'; 
+     public void printGreeting(){
+      System.debug(greeting);
+    }
+    /*
+    public void printGoodMorning(){
+   System.debug(goodMorning);     
+    }
+    public void printGoodEvening(){
+   System.debug(goodEvening);     
+    }
+    public void printGoodNight(){
+   System.debug(goodNight);     
+    }
+    */
+    public void printMessage(String msg){
+   System.debug(msg);
+    }
+        
+    public String getDay(Integer dayNumber){
+    String dayString='';
+    switch on dayNumber{
+    when(0){
+     dayString = 'Sunday';
+    }
+    when(1){
+     dayString = 'Monday';
+    }
+    when(2){
+     dayString = 'Tuesday';
+    }
+    when(3){
+     dayString = 'Wednesday';
+    }
+    when(4){
+     dayString = 'Thursday';
+    }
+    when(5){
+     dayString = 'Friday';
+    }
+    when(6){
+     dayString = 'Saturday';
+    }
+        
+    }
+      return dayString;  
+    }
+    
+    
+    public String getDay(String dayAbb){
+    String dayString='';
+    switch on dayAbb{
+    when('Sun'){
+     dayString = 'Sunday';
+    }
+    when('Mon'){
+     dayString = 'Monday';
+    }
+    when('Tue'){
+     dayString = 'Tuesday';
+    }
+    when('Wed'){
+     dayString = 'Wednesday';
+    }
+    when('Thur'){
+     dayString = 'Thursday';
+    }
+    when('Fri'){
+     dayString = 'Friday';
+    }
+    when('Sat'){
+     dayString = 'Saturday';
+    }
+        
+    }
+      return dayString;  
+    }
+}
+
+//Calling
+HelloWorld firstClass = new HelloWorld();
+
+//firstClass.printGreeting();
+
+//Print message
+/*
+firstClass.printMessage('good Morning');
+firstClass.printMessage('good Evening');
+firstClass.printMessage('good Night');
+*/
+
+System.debug(firstClass.getDay(0));
+System.debug(firstClass.getDay(1));
+System.debug(firstClass.getDay(2));
+System.debug(firstClass.getDay(3));
+System.debug(firstClass.getDay(4));
+System.debug(firstClass.getDay(5));
+
+System.debug(firstClass.getDay('Mon'));
+System.debug(firstClass.getDay('Tue'));
+System.debug(firstClass.getDay('Thur'));
+System.debug(firstClass.getDay('Fri'));
+System.debug(firstClass.getDay('Sat'));
+
