@@ -16,6 +16,9 @@ public class HelloWorld {
     public void printGoodNight(){
    System.debug(goodNight);     
     }
+   public void printMessage(String msg){
+   System.debug(msg);
+    }
         
 }
 
@@ -31,3 +34,5 @@ firstClass.printGoodMorning();
 firstClass.printGoodEvening();
 firstClass.printGoodNight();
 
+//passing parameter calling
+first.printMessage('Good Morning');
