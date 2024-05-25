@@ -1,0 +1,31 @@
+//Class Structure & methods
+public class Covid19{
+
+ public Integer recoveredInArea=0;
+ public static Integer recoveredInCountry=0;
+ 
+ public void treatPatient(){
+ recoveredInArea++;
+ recoveredInCountry++;
+ 
+ }
+ 
+  public static void printTreated(){
+ System.debug(recoveredInCountry);
+ }
+}
+
+//Calling
+covid19 jaipur = new covid19();
+covid19 pune = new covid19();
+covid19 jabalpur = new covid19();
+jaipur.treatPatient();
+
+//System.debug('Total Recovered in Area- ' + jaipur.recoveredInArea);
+//System.debug('Total Recovered in Country- ' + covid19.recoveredInCountry);
+
+pune.treatPatient();
+//System.debug('Total Recovered in Area- ' + pune.recoveredInArea);
+//System.debug('Total Recovered in Country- ' + covid19.recoveredInCountry);
+jabalpur.treatPatient();
+covid19.printTreated();
